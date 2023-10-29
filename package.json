@@ -1,0 +1,8 @@
+{
+  "name": "js-5-main",
+  "version": "1.0.0",
+  "dependencies": {
+    "html-webpack-plugin": "^5.5.3",
+    "mini-css-extract-plugin": "^2.7.6"
+  }
+}

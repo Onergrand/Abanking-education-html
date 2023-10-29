@@ -1,0 +1,268 @@
+body {
+  color: var(--Dark-Color, #21243D);
+  font-family: Heebo, serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0 0 0 0;
+}
+
+.main-navigation__list {
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 35px;
+  margin-right: 60px;
+}
+
+.main-navigation__list-item {
+  list-style-type: none;
+}
+
+.main-navigation__list-item a:link {
+  color: #000;
+  text-align: right;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+    text-decoration: none;
+}
+
+.about-me {
+  margin-top: 140px;
+
+  display: grid;
+  grid-column-gap: 106px;
+  grid-template-columns: 506px 243px;
+  justify-content: center;
+
+}
+
+.greeting h1 {
+  width: 506px;
+  height: 105px;
+  flex-shrink: 0;
+
+  margin-top: 18px;
+
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 60px; /* 136.364% */
+}
+
+.greeting-quote {
+  width: 497px;
+  height: 66px;
+  flex-shrink: 0;
+  margin-top: 40px;
+}
+
+.about-me__sample-resume {
+  margin-top: 38px;
+}
+
+.about-me__sample-resume a {
+  width: 208px;
+  height: 47px;
+  flex-shrink: 0;
+
+  padding: 9px;
+  border-radius: 2px;
+  background: var(--Primary, #FF6464);
+
+  text-decoration: none;
+
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.about-me__photo {
+  border-radius: 243px;
+  width: 243px;
+  height: 243px;
+  top:50%;
+  left:50%;
+
+  object-fit:cover;
+  background: url("../img/profile_photo.png") lightgray 50% / cover no-repeat;
+  flex-shrink: 0;
+}
+
+.posts {
+  background: #EDF7FA;
+  margin-top: 71px;
+
+  border: transparent 1px solid;
+}
+
+.posts__navigation {
+  display: grid;
+
+  justify-content: center;
+  grid-template-columns: 418px 418px;
+  grid-column-gap: 12px;
+}
+
+.posts__navigation a {
+  padding-top: 20px;
+
+  height: 20px;
+  text-align: right;
+}
+
+.posts a:link {
+  color: var(--Secondry, #00A8CC);
+
+  text-decoration: none;
+}
+
+.posts__list {
+  padding-left: 0;
+
+  display: grid;
+
+  justify-content: center;
+  grid-template-columns: 418px 418px;
+  grid-column-gap: 12px;
+  margin-top: 2px;
+  margin-bottom: 32px;
+}
+
+.posts__list-item {
+  list-style-type: none;
+}
+
+.posts__list-item article {
+  background: #fff;
+  padding: 24px 21px 7px 23px;
+}
+
+h2 {
+  margin: 0 0 0 0;
+
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 60px; /* 272.727% */
+}
+
+article h3 {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.posts__list-item span {
+  font-size: 18px;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+.featured-works {
+  display: grid;
+  grid-auto-rows: minmax(10px, auto);
+  justify-content: center;
+}
+
+.featured-works h2 {
+  width: fit-content;
+
+  margin-left: 40px;
+  margin-top: 15px;
+}
+
+.featured-works__list-item {
+  width: fit-content;
+  border-bottom: #E0E0E0 1px solid;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 29px;
+
+  display: grid;
+
+  justify-content: center;
+  grid-template-columns: 246px 594px;
+  grid-column-gap: 18px;
+}
+
+.featured-works__list-item:first-child {
+  margin-top: 0;
+}
+
+
+.featured-works__list-item img {
+  border-radius: 6px;
+  margin-top: 11px;
+}
+
+.featured-works__list-item__info-year {
+  width: 62px;
+  height: 25px;
+  flex-shrink: 0;
+
+  border-radius: 16px;
+  background: #142850;
+
+  padding-left: 10px;
+  padding-right: 10px;
+
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 25px; /* 333.333% */
+}
+
+.featured-works__list-item__info-work-type {
+  color: var(--Light, #8695A4);
+  font-size: 20px;
+  margin-left: 26px;
+}
+
+.featured-works__list-item img {
+  width: 246px;
+  height: 180px;
+  box-sizing: content-box;
+  flex-shrink: 0;
+}
+
+.featured-works__list-item__info h3 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.featured-works__list-item__info-description {
+  margin-top: 17px;
+}
+
+footer {
+  margin-top: 130px;
+}
+
+footer ul {
+  display: flex;
+  gap: 35px;
+
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+
+  width: fit-content;
+}
+
+footer li {
+  list-style-type: none;
+}
+
+footer p {
+  margin-right: auto;
+  margin-left: auto;
+  width: fit-content;
+
+  color: var(--Dark, #21243D);
+  font-size: 14px;
+}
+
+.socials__list-item {
+  width: 30px;
+  height: 30px;
+}
