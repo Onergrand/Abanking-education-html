@@ -172,6 +172,7 @@ h3 {
 
 .featured-works__list-item {
   width: fit-content;
+  padding: 15px 0;
   border-bottom: #E0E0E0 1px solid;
 
   margin-left: auto;
@@ -188,7 +189,6 @@ h3 {
 .featured-works__list-item:first-child {
   margin-top: 0;
 }
-
 
 .featured-works__list-item img {
   border-radius: 6px;
@@ -228,6 +228,8 @@ h3 {
 .featured-works__list-item__info h3 {
   font-size: 30px;
   font-weight: 700;
+
+  margin-bottom: 16px;
 }
 
 .featured-works__list-item__info-description {

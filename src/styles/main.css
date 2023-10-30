@@ -156,6 +156,7 @@ h3 {
 
 .featured-works__list-item {
   width: fit-content;
+  padding: 15px 0;
   border-bottom: #E0E0E0 1px solid;
   margin-left: auto;
   margin-right: auto;
@@ -205,6 +206,7 @@ h3 {
 .featured-works__list-item__info h3 {
   font-size: 30px;
   font-weight: 700;
+  margin-bottom: 16px;
 }
 
 .featured-works__list-item__info-description {
@@ -236,7 +238,7 @@ footer p {
   font-size: 14px;
 }
 
-.socials-navigation__list-item {
+.socials__list-item {
   width: 30px;
   height: 30px;
 }
